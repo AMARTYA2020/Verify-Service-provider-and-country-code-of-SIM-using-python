@@ -10,4 +10,4 @@ from phonenumbers import carrier
 service_provider = phonenumbers.parse(no, "RO")
 print(carrier.name_for_number(service_provider, "en"))
 
-# To get country name
+# To get country name and SIM
